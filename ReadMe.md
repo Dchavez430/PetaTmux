@@ -10,7 +10,8 @@ touch ~/.config/tmux/tmux.conf
 
 follow directions here:
 https://github.com/tmux-plugins/tpm
-tldr:
+tldr:           
+	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 	add new plugin to ~./tmux.conf with set -g @plugin '....'
 	ctrl+space I to install new plugins
 	ctrl+space U to uninstall new plugins
